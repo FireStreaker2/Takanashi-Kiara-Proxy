@@ -1,6 +1,6 @@
 
 
-![EduKit-New](https://socialify.git.ci/FireStreaker2/Takanashi-Kiara-Proxy/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark)
+![EduKit-New](https://socialify.git.ci/FireStreaker2/Takanashi-Kiara-Proxy/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
 </div>
 
@@ -11,7 +11,7 @@
          <br>
                
 <a href="https://replit.com/new/github/FireStreaker2/Takanashi-Kiara-Proxy"><img height="30px" src="https://amethystnetwork-dev.github.io/assets/replit.svg"><img></a>
-<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/FireStreaker2/Takanashi-Kiara-Proxy&branch=main&name=edukit"><img height="30px" src="https://img.shields.io/badge/koyeb-121212.svg?style=for-the-badge&logo=koyeb&logoColor=87fcc4"><img></a>
+<a href="https://app.koyeb.com/deploy?type=git&repository=github.com/FireStreaker2/Takanashi-Kiara-Proxy&branch=main&name=Kiara-Proxy"><img height="30px" src="https://img.shields.io/badge/koyeb-121212.svg?style=for-the-badge&logo=koyeb&logoColor=87fcc4"><img></a>
 </div>
 
 ## Setup via Terminal
