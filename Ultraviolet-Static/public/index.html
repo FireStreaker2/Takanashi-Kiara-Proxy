@@ -1,79 +1,119 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
   <head>
-    <link rel="stylesheet" type="text/css" href="style.css">
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600,700" rel="stylesheet">
-    <title>Calculator for school
-    </title>
-    <meta property="og:title" content="Calculator For School" />
-    <meta property="og:description" content="Welcome back!" />
-  </head>
-  <body>
-    <div id="container">
-      <div id="calculator">
-        <div id="result">
-          <div id="history">
-            <p id="history-value">
-            </p>
-          </div>
-          <div id="output">
-            <p id="output-value">
-            </p>
-          </div>
-        </div>
-        <div id="keyboard">
-          <button class="operator" id="clear">C</button>
-          <button class="operator" id="backspace">CE</button>
-          <button class="operator" id="%">%</button>
-          <button class="operator" id="/">&#247;</button>
-          <button class="number" id="7" onclick="reset()">7</button>
-          <button class="number" id="8" onclick="reset()">8</button>
-          <button class="number" id="9" onclick="reset()">9</button>
-          <button class="operator" id="*">&times;</button>
-          <button class="number" id="4" onclick="reset()">4</button>
-          <button class="number" id="5" onclick="reset()">5</button>
-          <button class="number" id="6" onclick="reset()">6</button>
-          <button class="operator" id="-">-</button>
-          <button class="number" id="1" onclick="reset()">1</button>
-          <button class="number" id="2" onclick="reset()">2</button>
-          <button class="number" id="3" onclick="reset()">3</button>
-          <button class="operator" id="+" onclick="d2()">+</button>
-          <button class="zero" id="0" onclick="reset()">0</button>
-          
-          <button class="operator" id="=" onclick="detect()">=</button>
-        </div>
-      </div>
-    </div>
-    <script src="script.js"></script>
-    <script>
-      var count = 0;
-      var c = 0;
-      function detect() {
-        count += 1;
-        c = 0;
-        
-        if (count == 3) {
-          count = 0;
-          openInNewTab(window.location.href + "/search.html");
-        };
-      };
-      
-      function d2(){
-       count = 0;
-        c += 1;
-        
-        if (c===3){
-         c=0;
-          rr();
-        }
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, shrink-to-fit=no"
+    />
+    <title>Takanashi Kiara Proxy</title>
+    <meta
+      name="description"
+      content="kiwawa pwoxy"
+    />
+    <meta
+      name="keywords"
+      content="proxy, web proxy, ultraviolet, service workers, unblock websites, unblock chromebook, free web proxy, proxy list, proxy sites, un block chromebook, online proxy, proxy server, proxysite, proxy youtube, bypass securly, bypass iboss, bypass lightspeed filter, holy unblocker, chromebooks, titanium network, unblock youtube, youtube proxy, unblocked youtube, youtube unblocked"
+    />
+    <meta
+      name="theme-color"
+      media="(prefers-color-scheme: dark)"
+      content="#434c5e"
+    />
+    <meta name="googlebot" content="index, follow, snippet" />
+    <link rel="shortcut icon" content="kiwawa.jpg" />
+    <link rel="stylesheet" href="index.css" />
+
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "FAQPage",
+        "mainEntity": [
+          {
+            "@type": "Question",
+            "name": "What is Ultraviolet (Web Proxy)?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Highly sophisticated proxy used for evading internet censorship or accessing websites in a controlled sandbox using the power of service-workers and more!"
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "How do I unblock sites using Ultraviolet?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Simply head to an official site featuring Ultraviolet such as Holy Unblocker or Incognito! You can also self-host Ultraviolet on your own web server for maximum privacy."
+            }
+          },
+          {
+            "@type": "Question",
+            "name": "What if Ultraviolet is blocked or not working?",
+            "acceptedAnswer": {
+              "@type": "Answer",
+              "text": "Join the Titanium Network Discord at discord.gg/unblock!"
+            }
+          }
+        ]
       }
-      
-      function reset() {
-        count = 0;
-        c = 0;
-      };
-      
     </script>
-    <script src="cloak.js"></script>
+  </head>
+
+  <body>
+    <div
+      title="Ultraviolet Logo"
+      class="flex-center logo-wrapper header-center"
+    >
+      <img class="logo" src="kiwawa.jpg" alt="kiwawa" />
+      <h1
+        title="Ultraviolet supports YouTube, GeForce NOW and more! Service by TitaniumNetwork."
+      >
+        Takanashi Kiara Proxy
+      </h1>
+    </div>
+    <div
+      title="Ultraviolet uses the power of service-workers and more! Unblock many sites today with Ultraviolet!"
+      class="flex-center desc"
+    >
+      <p>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; kiwawa pwoxy</p>
+    </div>
+
+    <form id="uv-form" class="flex-center">
+      <input id="uv-address" placeholder="Search the web freely" />
+    </form>
+    <p id="error"></p>
+    <code id="error-code"></code>
+    <footer>
+      <a
+        title="Ultraviolet is a web proxy service maintained by TitaniumNetwork!"
+        href="https://github.com/titaniumnetwork-dev"
+        >TitaniumNetwork</a
+      >
+      <a
+        title="Join the TitaniumNetwork Discord for more proxy services like Holy Unblocker or Incognito featuring Ultraviolet."
+        href="https://discord.gg/agBSsZEkfe"
+        >Discord</a
+      >
+      <a
+        title="Massive project partnered with TitaniumNetwork, Ultraviolet being the prime example."
+        href="https://github.com/tomphttp"
+        >TompHTTP</a
+      >
+      <a
+        title="The official deployment repository for Ultraviolet, a web proxy service which can be used to unblock sites at school and more!"
+        href="https://github.com/titaniumnetwork-dev/Ultraviolet-Node"
+        >GitHub</a
+      >
+      <a
+        title="For privacy implications related to Ultraviolet."
+        href="https://github.com/titaniumnetwork-dev/Ultraviolet/raw/main/LICENSE"
+        style="margin-left: auto"
+        >License</a
+      >
+      <span>Ultraviolet &copy; TN 2022</span>
+    </footer>
+    <script src="uv/uv.bundle.js"></script>
+    <script src="uv/uv.config.js"></script>
+    <script src="register-sw.js"></script>
+    <script src="index.js"></script>
   </body>
 </html>
