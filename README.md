@@ -1,6 +1,6 @@
 
 
-![EduKit-New](https://socialify.git.ci/OsmiumNetwork/EduKit-New/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark)
+![EduKit-New](https://socialify.git.ci/FireStreaker2/Takanashi-Kiara-Proxy/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Signal&pulls=1&stargazers=1&theme=Dark)
 
 </div>
 
@@ -17,7 +17,7 @@
 ## Setup via Terminal
 ```
 $ git clone https://github.com/FireStreaker2/Takanashi-Kiara-Proxy
-$ cd EduKit-New
+$ cd Takanashi-Kiara-Proxy
 ```
 > Skip the first two steps if you deployed via one of the buttons above
 ```
