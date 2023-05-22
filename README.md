@@ -1,6 +1,4 @@
-
-
-![EduKit-New](https://socialify.git.ci/FireStreaker2/Takanashi-Kiara-Proxy/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
+![Takanashi-Kiara-Proxy](https://socialify.git.ci/FireStreaker2/Takanashi-Kiara-Proxy/image?description=1&forks=1&issues=1&name=1&owner=1&pattern=Circuit%20Board&pulls=1&stargazers=1&theme=Dark)
 
 </div>
 
@@ -22,10 +20,6 @@ $ cd Takanashi-Kiara-Proxy
 > Skip the first two steps if you deployed via one of the buttons above
 ```
 $ npm i
-$ cd Ultraviolet-Static
-$ npm i
-$ cd ..
-$ npm i ./Ultraviolet-Static
 $ npm start
 ```
 
